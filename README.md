@@ -38,7 +38,7 @@
 🔗 **Shopper UI Preview:** <a href="preview.png" target="_blank">preview.png</a><br/>
 <sub>Головна сторінка з банером, табами, слайдерами, новинками та футером</sub>
 
-🔗 **Live Demo:** [Перейти на сайт](https://your-username.github.io/shopper-ui)
+🔗 **Live Demo:** [Перейти на сайт](https://talinya222.github.io/Shopper-Landing-Page/)
 
 ---
 
