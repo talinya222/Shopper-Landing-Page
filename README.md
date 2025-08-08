@@ -41,6 +41,6 @@
 ## 🚀 Як запустити
 
 ```bash
-git clone https://github.com/your-username/shopper-ui.git
-cd shopper-ui
+git clone https://github.com/your-username/Shopper-Landing-Page.git
+cd Shopper-Landing-Page
 # Відкрий index.html у браузері
