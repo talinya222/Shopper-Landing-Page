@@ -34,8 +34,10 @@
 ---
 
 ## 📸 Демо-прев’ю
-
-![Shopper UI Preview](preview.png)  
+ 
+<a href="preview.png" target="_blank">
+  ![Shopper UI Preview]
+</a> 
 <sub>Головна сторінка з банером, табами, слайдерами, новинками та футером</sub>
 
 🔗 **Live Demo:** [Перейти на сайт](https://your-username.github.io/shopper-ui)
