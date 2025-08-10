@@ -96,7 +96,14 @@ body{
 /* ============================================================ */
 /* user-actions fixed block =================================== */
 .user-actions {
-	padding: 55px 0px;
+	padding: 25px 0px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: var(--main-white);
+	z-index: 100;
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
 }
 .user-actions-container {
 	display: flex;
@@ -185,7 +192,7 @@ body{
 /* ============================================================ */
 /* HEADER ===================================================== */
 .header {
-	padding: 10px 0px 66px 0px;
+	padding: 123px 0px 66px 0px;
 }
 .header-menu {
 	padding: 0px 0px 38px 0px;
