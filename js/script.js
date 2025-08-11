@@ -51,47 +51,44 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	// Ініціалізація першого табу
 	activateTab(0);
-});
-// ===================================================================
-// ===================================================================
-// ===================================================================
-
-// Об'єкт, що зіставляє класи (кольори) з шляхами до обох зображень
-const imagePath = {
-	black: {
-		closeup: './images/new-launches/1.png',
-		case: './images/new-launches/2.png'
-	},
-	yellow: {
-		closeup: './images/new-launches/1-yellow.png',
-		case: './images/new-launches/2-yellow.png'
-	},
-	blue: {
-		closeup: './images/new-launches/1-blue.png',
-		case: './images/new-launches/2-blue.png'
-	}
-};
-
-const colorCircles = document.querySelectorAll('.color-option-button');
-const earbudsCloseup = document.getElementById('earbuds-closeup');
-const earbudsCase = document.getElementById('earbuds-case');
-
-colorCircles.forEach(circle => {
-	circle.addEventListener('click', () => {
-
-		// Видаляємо клас 'active' з усіх елементів
-		colorCircles.forEach(c => c.classList.remove('active'));
-		circle.classList.add('active');
-
-		const colorClass = Array.from(circle.classList).find(cls => imagePath[cls]);
-
-		if (colorClass) {
-			// Оновлюємо src для обох зображень
-			earbudsCloseup.src = imagePath[colorClass].closeup;
-			earbudsCase.src = imagePath[colorClass].case;
+	// ===================================================================
+	// ===================================================================
+	// ===================================================================
+	// Об'єкт, що зіставляє класи (кольори) з шляхами до обох зображень
+	const imagePath = {
+		black: {
+			closeup: './images/new-launches/1.png',
+			case: './images/new-launches/2.png'
+		},
+		yellow: {
+			closeup: './images/new-launches/1-yellow.png',
+			case: './images/new-launches/2-yellow.png'
+		},
+		blue: {
+			closeup: './images/new-launches/1-blue.png',
+			case: './images/new-launches/2-blue.png'
 		}
+	};
+
+	const colorCircles = document.querySelectorAll('.color-option-button');
+	const earbudsCloseup = document.getElementById('earbuds-closeup');
+	const earbudsCase = document.getElementById('earbuds-case');
+
+	colorCircles.forEach(circle => {
+		circle.addEventListener('click', () => {
+
+			// Видаляємо клас 'active' з усіх елементів
+			colorCircles.forEach(c => c.classList.remove('active'));
+			circle.classList.add('active');
+
+			const colorClass = Array.from(circle.classList).find(cls => imagePath[cls]);
+
+			if (colorClass) {
+				// Оновлюємо src для обох зображень
+				earbudsCloseup.src = imagePath[colorClass].closeup;
+				earbudsCase.src = imagePath[colorClass].case;
+			}
+		});
 	});
 });
-// ===================================================================
-// ===================================================================
-// ===================================================================
+
